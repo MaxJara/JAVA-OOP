@@ -17,6 +17,10 @@ public class Main {
         System.out.println(myDoctor);
 
         User user = new Doctor("Anahi", "ana@ana.com");
+        user.showDataUser();
+
+        User userPa = new Patient("Anahi", "ana@ana.com");
+        userPa.showDataUser();
         /*
         for (model.Doctor.AvailableAppointment aA: myDoctor.getAvailableAppointments()) {
             System.out.println(aA.getDate() + ""+ aA.getTime());
@@ -24,10 +28,13 @@ public class Main {
 
          */
 
+        /*
         System.out.println();
         System.out.println();
         Patient patient = new Patient("Alejandra", "alejandra@mail.com");
         System.out.println(patient);
 
+
+         */
     }
 }
