@@ -40,7 +40,7 @@ public class Main {
 
             }
         };
-        
+
 
         /*
         for (model.Doctor.AvailableAppointment aA: myDoctor.getAvailableAppointments()) {
